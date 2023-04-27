@@ -16,7 +16,7 @@ spec:
         app: thecenter
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: thecenter
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: The Center
+            value: NWS - The Center
           - name: CLIENTPORT
             value: "32004"
           - name: SERVERPORT

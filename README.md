@@ -1,12 +1,14 @@
 # Ark-MicroK8s
 
+> **NOTE:** This is a fork for managing my own private servers. You probably want to use/reference [nhalase/ark-microk8s](https://github.com/nhalase/ark-microk8s) instead.
+
 ARK: Survival Evolved via MicroK8s.
 
 This project was inspired by [Cervator/KubicArk](https://github.com/Cervator/KubicArk), but I wanted something I could maintain myself and could run on my basement MicroK8s edge node (an old Dell R620).
 
 What I'm running:
 - Ubuntu 22.04.2 on a Dell R620 with 64GB of RAM, an SSD boot drive, and SSD ZFS pool for local storage (not documented in this repo)
-- Using my own [nhalase/ark](https://github.com/nhalase/ark) Docker image because I wanted finer control over the image
+- Using my own [nwsmonster/ark](https://github.com/nwsmonster/ark) Docker image because I wanted finer control over the image
 
 ## Getting started
 

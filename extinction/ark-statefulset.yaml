@@ -16,7 +16,7 @@ spec:
         app: extinction
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: extinction
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Extinction
+            value: NWS - Extinction
           - name: CLIENTPORT
             value: "32020"
           - name: SERVERPORT

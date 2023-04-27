@@ -16,7 +16,7 @@ spec:
         app: lostisland
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: lostisland
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Lost Island
+            value: NWS - Lost Island
           - name: CLIENTPORT
             value: "32036"
           - name: SERVERPORT

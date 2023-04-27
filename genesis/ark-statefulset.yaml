@@ -16,7 +16,7 @@ spec:
         app: genesis
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: genesis
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Genesis
+            value: NWS - Genesis
           - name: CLIENTPORT
             value: "32028"
           - name: SERVERPORT

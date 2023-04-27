@@ -16,7 +16,7 @@ spec:
         app: ragnarok
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: ragnarok
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Ragnarok
+            value: NWS - Ragnarok
           - name: CLIENTPORT
             value: "32012"
           - name: SERVERPORT

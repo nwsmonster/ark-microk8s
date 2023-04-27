@@ -16,7 +16,7 @@ spec:
         app: crystalisles
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: crystalisles
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Crystal Isles
+            value: NWS - Crystal Isles
           - name: CLIENTPORT
             value: "32032"
           - name: SERVERPORT

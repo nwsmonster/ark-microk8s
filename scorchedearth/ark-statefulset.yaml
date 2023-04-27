@@ -16,7 +16,7 @@ spec:
         app: scorchedearth
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: scorchedearth
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Scorched Earth
+            value: NWS - Scorched Earth
           - name: CLIENTPORT
             value: "32008"
           - name: SERVERPORT

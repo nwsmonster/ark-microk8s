@@ -16,7 +16,7 @@ spec:
         app: fjordur
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: fjordur
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Fjordur
+            value: NWS - Fjordur
           - name: CLIENTPORT
             value: "32040"
           - name: SERVERPORT

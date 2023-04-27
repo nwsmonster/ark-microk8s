@@ -16,7 +16,7 @@ spec:
         app: valguero
     spec:
       containers:
-      - image: nhalase/ark
+      - image: nwsmonster/ark
         imagePullPolicy: Always
         name: valguero
         resources:
@@ -25,7 +25,7 @@ spec:
             memory: 12Gi
         env:
           - name: SESSIONNAME
-            value: Valguero
+            value: NWS - Valguero
           - name: CLIENTPORT
             value: "32024"
           - name: SERVERPORT
