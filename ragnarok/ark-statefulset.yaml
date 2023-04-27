@@ -46,6 +46,11 @@ spec:
               secretKeyRef:
                 name: server-secrets
                 key: ADMINPASSWORD
+          - name: DISCORD_WEBHOOK_URL
+            valueFrom:
+              secretKeyRef:
+                name: server-secrets
+                key: DISCORD_WEBHOOK_URL
           - name: TZ
             valueFrom:
               secretKeyRef:
