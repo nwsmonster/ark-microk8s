@@ -63,18 +63,18 @@ data:
 # example
 - containerPort: 32000
   hostPort: 32000
-  name: udp-32000
+  name: isl-client-udp
   protocol: UDP
 - containerPort: 32001
   hostPort: 32001
-  name: udp-32001
+  name: isl-server-udp
   protocol: UDP
 - containerPort: 32002
   hostPort: 32002
-  name: udp-32002
+  name: isl-steam-udp
   protocol: UDP
 - containerPort: 32003
   hostPort: 32003
-  name: tcp-32003
+  name: isl-rcon-tcp
   protocol: TCP
 ```
